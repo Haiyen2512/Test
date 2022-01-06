@@ -1,0 +1,24 @@
+setwd("E:/")
+data<-read.csv("2.csv")
+data$Country<-NULL
+data$Count<-NULL
+data$Lat.Long<-NULL
+data$Offer<-NULL
+data$Number.of.Referrals<-NULL
+data$City<-NULL
+data$State<-NULL
+data$SeniorCitizen<-NULL
+data$Partner<-NULL
+data$churn_rate<-NULL
+data$Zip.Code<-NULL
+data$Customer.Status<-NULL
+data$Total.Refunds<-NULL
+data$Referred.a.Friend<-NULL
+data$Under.30<-NULL
+data$Churn.Reason<-NULL
+data$Dependents<-NULL
+data$Latitude<-NULL
+data$Longitude<-NULL
+View(data)
+write.table(data,file = "DATA.csv")
+DATA<-data
